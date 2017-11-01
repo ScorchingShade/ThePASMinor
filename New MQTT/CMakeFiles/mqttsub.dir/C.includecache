@@ -1,0 +1,54 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ankush/Desktop/New MQTT/MQTT-c-pub-sub-master/src/mqtt.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+unistd.h
+-
+stdbool.h
+-
+errno.h
+-
+fcntl.h
+-
+assert.h
+-
+sys/time.h
+-
+arpa/inet.h
+-
+netdb.h
+-
+mqtt.h
+/home/ankush/Desktop/New MQTT/MQTT-c-pub-sub-master/src/mqtt.h
+
+/home/ankush/Desktop/New MQTT/MQTT-c-pub-sub-master/src/mqtt.h
+stdint.h
+-
+
+/home/ankush/Desktop/New MQTT/MQTT-c-pub-sub-master/submain/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/time.h
+-
+mqtt.h
+/home/ankush/Desktop/New MQTT/MQTT-c-pub-sub-master/submain/mqtt.h
+
+MQTT-c-pub-sub-master/src/mqtt.h
+stdint.h
+-
+

@@ -1,0 +1,46 @@
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+tcp        0      0 127.0.1.1:53            0.0.0.0:*               LISTEN      1048/dnsmasq    
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      777/cupsd       
+tcp        0      0 0.0.0.0:1883            0.0.0.0:*               LISTEN      9667/mosquitto  
+tcp6       0      0 ::1:631                 :::*                    LISTEN      777/cupsd       
+tcp6       0      0 :::1883                 :::*                    LISTEN      9667/mosquitto  
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           780/avahi-daemon: r
+udp        0      0 0.0.0.0:46967           0.0.0.0:*                           780/avahi-daemon: r
+udp        0      0 127.0.1.1:53            0.0.0.0:*                           1048/dnsmasq    
+udp        0      0 0.0.0.0:68              0.0.0.0:*                           7440/dhclient   
+udp        0      0 0.0.0.0:49352           0.0.0.0:*                           1048/dnsmasq    
+udp        0      0 0.0.0.0:631             0.0.0.0:*                           934/cups-browsed
+udp6       0      0 :::5353                 :::*                                780/avahi-daemon: r
+udp6       0      0 :::42336                :::*                                780/avahi-daemon: r
+raw6       0      0 :::58                   :::*                    7           827/NetworkManager
+Active UNIX domain sockets (only servers)
+Proto RefCnt Flags       Type       State         I-Node   PID/Program name    Path
+unix  2      [ ACC ]     STREAM     LISTENING     10933    1/init              /run/systemd/journal/stdout
+unix  2      [ ACC ]     STREAM     LISTENING     21985    1872/dbus-daemon    @/tmp/dbus-7Iz1jY77no
+unix  2      [ ACC ]     STREAM     LISTENING     21202    1465/systemd        /run/user/1000/systemd/private
+unix  2      [ ACC ]     SEQPACKET  LISTENING     11226    1/init              /run/udev/control
+unix  2      [ ACC ]     STREAM     LISTENING     11225    1/init              /run/systemd/fsck.progress
+unix  2      [ ACC ]     STREAM     LISTENING     21384    1657/gnome-keyring- /run/user/1000/keyring/control
+unix  2      [ ACC ]     STREAM     LISTENING     21727    1799/ibus-daemon    @/tmp/ibus/dbus-UoVxpIbi
+unix  2      [ ACC ]     STREAM     LISTENING     21624    1657/gnome-keyring- /run/user/1000/keyring/pkcs11
+unix  2      [ ACC ]     STREAM     LISTENING     21632    1657/gnome-keyring- /run/user/1000/keyring/ssh
+unix  2      [ ACC ]     STREAM     LISTENING     15665    799/cgmanager       /sys/fs/cgroup/cgmanager/sock
+unix  2      [ ACC ]     STREAM     LISTENING     22226    1908/gnome-session- @/tmp/.ICE-unix/1908
+unix  2      [ ACC ]     STREAM     LISTENING     22481    2007/pulseaudio     /run/user/1000/pulse/native
+unix  2      [ ACC ]     STREAM     LISTENING     14026    1/init              /run/uuidd/request
+unix  2      [ ACC ]     STREAM     LISTENING     14027    1/init              /run/snapd.socket
+unix  2      [ ACC ]     STREAM     LISTENING     14024    1/init              /var/run/avahi-daemon/socket
+unix  2      [ ACC ]     STREAM     LISTENING     14028    1/init              /run/snapd-snap.socket
+unix  2      [ ACC ]     STREAM     LISTENING     14029    1/init              /var/run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     21530    1749/dbus-daemon    @/tmp/dbus-sGlqPUxEIL
+unix  2      [ ACC ]     STREAM     LISTENING     14030    1/init              /var/run/cups/cups.sock
+unix  2      [ ACC ]     STREAM     LISTENING     17778    981/Xorg            @/tmp/.X11-unix/X0
+unix  2      [ ACC ]     STREAM     LISTENING     22227    1908/gnome-session- /tmp/.ICE-unix/1908
+unix  2      [ ACC ]     STREAM     LISTENING     17935    827/NetworkManager  /var/run/NetworkManager/private-dhcp
+unix  2      [ ACC ]     STREAM     LISTENING     127426   6807/soffice.bin    /tmp/OSL_PIPE_1000_SingleOfficeIPC_d6834425c7fe928e4176887368785f4
+unix  2      [ ACC ]     STREAM     LISTENING     22061    1885/gpg-agent      /home/ankush/.gnupg/S.gpg-agent
+unix  2      [ ACC ]     STREAM     LISTENING     21455    1659/upstart        @/com/ubuntu/upstart-session/1000/1659
+unix  2      [ ACC ]     STREAM     LISTENING     17779    981/Xorg            /tmp/.X11-unix/X0
+unix  2      [ ACC ]     STREAM     LISTENING     10919    1/init              /run/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     14025    1/init              /run/acpid.socket
